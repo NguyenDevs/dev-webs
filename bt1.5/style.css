@@ -4,7 +4,8 @@ body {
     min-height: 100vh;
 }
 .container{
-    background: rgb(233, 166, 73);
+    background-color: rgb(233, 166, 73);
+    margin-bottom: 0px;
 }
 h1{
     color: red;
@@ -27,7 +28,6 @@ h5{
 }
 .red{
     color: red;
-
 }
 .text {
     display: flex;
@@ -35,4 +35,5 @@ h5{
 .nd-ts{
     position: relative;
     left: 10px;
+    width: 80%;
 }
