@@ -1,0 +1,87 @@
+body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background-color: WHITE;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timkiem a {
+    text-decoration: none;
+}
+
+.container p {
+    max-width: 67%;
+    font-size: 20px;
+    margin-left: 16px;
+    position: relative;
+    top: 30px;
+}
+h1 { 
+    color: blue;
+    text-align: center;
+    font-size: 36px;
+}
+.imganh {
+    margin-left: 70%;
+    margin-top: -21%;
+    width: 400px;
+    height: 300px;
+}
+.searching {
+    width: 600px;
+    height: 60px;
+    border-style: solid;
+    margin-left: 15%;
+}
+
+#go {
+    margin-left: -1%;
+    font-size: 50px;
+    list-style: none;
+    display: flex;
+    margin-top: -2px;
+}
+
+.timkiemm {
+    margin-top: -40px;
+    margin-left: 40%;
+}
+
+.buttonn {
+    margin-left: 59%;
+    margin-top: -21px;
+}
+
+img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+ul li:nth-child(1) {
+    color: blue;
+}
+
+ul li:nth-child(2) {
+    color: rgb(255, 2, 2);
+}
+
+ul li:nth-child(3) {
+    color: hsl(60, 100%, 50%);
+}
+
+ul li:nth-child(4) {
+    color: blue;
+}
+
+ul li:nth-child(5) {
+    color: hsl(138, 100%, 50%);
+}
+
+ul li:nth-child(6) {
+    color: hsl(0, 100%, 50%);
+}

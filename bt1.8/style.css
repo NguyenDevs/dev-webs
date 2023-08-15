@@ -1,0 +1,71 @@
+table, th, td {
+    border: 1px solid black;
+  }
+table{
+    background-color: #ffcb99;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.col1 {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+}
+.col1- {
+    color: blue;
+    font-size: 18px;
+    text-align: left;
+    background-color: #ffcccb;
+}
+.col2- {
+    color: blue;
+    font-size: 18px;
+    text-align: center;
+    background-color: #ffcccb;
+}
+.col3- {
+    color: blue;
+    font-size: 18px;
+    text-align: center;
+    background-color: #ffcccb;
+}
+.col4- {
+    color: blue;
+    font-size: 18px;
+    text-align: center;
+    background-color: #ffcccb;
+}
+.col5- {
+    color: blue;
+    font-size: 18px;
+    text-align: center;
+    background-color: #ffcccb;
+}
+
+.meme1 {
+    color: #000000;
+    background-color: #ffcb99;
+}
+
+.table_name {
+    color: #fe0627;
+    font-size: 25px;
+}
+.under{
+    color: black;
+    text-align: left;
+}
+.mon{
+ text-align: left;
+ color: #000000;
+background-color: #ffcb99;
+}
+body{
+    position: relative;
+    width: 80%;
+    left: 9%;
+}

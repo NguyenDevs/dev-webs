@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    display: block;
+    width: 100%;
+}
+li{
+    list-style: square;
+    left: 31%;
+    position: relative;
+    font-size: 16px;
+}
+h4{
+    background-color: red;
+    color: white;
+    width: 90px;
+    font-size: 20px;
+    line-height: 26px;
+    position: relative;
+    left: 31%;
+    display: inline-block;
+
+}
+h1{
+    color: red;
+    position: relative;
+    text-align: center;
+}
+hr{
+    position: relative;
+    left: -25px;
+}
+.noidung{
+    position: relative;
+    top: -320px;
+}
+.copy{
+    position: relative;
+    left: 500px;
+    
+}
