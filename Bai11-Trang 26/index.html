@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+    <form>
+        <table>
+          <tr>
+            <td>Họ và tên:</td>
+            <td><input type="text" name="name"></td>
+          </tr>
+          <tr>
+            <td>Địa chỉ:</td>
+            <td><input type="text" name="address"></td>
+          </tr>
+          <tr>
+            <td>Điện Thoại:</td>
+            <td><input type="number" name="dienthoai"></td>
+          </tr>
+          <tr>
+            <td>Phái:</td>
+            <td> <input type="radio" name="gioitinh" checked="checked">Nam<input type="radio"  name="gioitinh">Nữ</td>
+          </tr>
+          <tr>
+            <td>Nghề nghiệp:</td>
+            <td> <select style="width:100px;">
+                <option value="1" selected="selected">Bác sĩ</option>
+                <option value="2">Kỹ sư</option>
+                <option value="3">Giáo viên</option>
+                <option value="4">Khác</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td>Chọn sản phầm tham gia:</td>
+            <td><select size="4" multiple="multiple" style="width:200px;">
+                <option value="1" selected="selected">Kem đánh răng</option>
+                <option value="2">Bột giặt</option>
+                <option value="3">Dầu gội đầu</option>
+                <option value="4">Sữa tắm</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td>Số người dự đoán tham gia:</td>
+            <td><input type="number" name="people"></td>
+          </tr>
+          <tr>
+            <th class="button" colspan="9"><button name="button" value="OK" type="button" onclick="thongbao.innerHTML='<b>Bạn đã đăng ký thành công</b>'">Đồng ý</button> </th>
+        </tr>   
+        <tr>
+            <th class="resuil" colspan="9"><label id="thongbao" ></label></th>
+        </tr>   
+        </table>
+      </form>
+      
+</body>
+</html>

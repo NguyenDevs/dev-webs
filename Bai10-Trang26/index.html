@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bài 10 - Tạo form và các điều khiển trên Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form" id="form">
+            <div class="content">
+                <div class="group">
+                    <label for="Peoples">Họ và tên:</label>
+                    <input type="text">                   
+                </div>
+
+                <div class="group">
+                    <label for="Passwork">Mật khẩu:</label>
+                    <input type="text">
+                </div>
+
+                <div class="group">
+                    Tuổi của bạn là: <br>
+                     <input type="radio" name="Places" value="1-18"/> Từ 1 đến 18 
+                     <br><input type="radio" name="Places" value="19-25"/> Từ 19 đến 25
+                     <br><input type="radio" name="Places" value="26-40"/> Từ 26 đến 40
+                     <br><input type="radio" name="Places" value="41-"/> Trên 40
+                </div>
+
+                <div class="group">
+                    Loại tiệc:<br>
+                     <input type="checkbox" name="ca" value="sang"/> Buổi Sáng<br>
+                     <input type="checkbox" name="ca" value="trua"/> Buổi Trưa<br> 
+                     <input type="checkbox" name="ca" value="toi"/> Buổi Tối<br>
+                     <input type="checkbox" name="ca" value="any"/> Bất kỳ giờ nào<br>
+                </div>
+
+                <div class="group">
+                    Sở thích của bạn:<br>
+                    <select name="favor" id="favor">
+                      <option value="1">Thể thao</option>
+                      <option value="2">Du lịch</option>
+                      <option value="3">Ca nhạc</option>
+                      <option value="4">Phim ảnh</option>
+                    </select>
+                </div><br><br><br>
+                 
+                <div class="button">
+                    <button name="button" value="OK" type="button" onclick="thanhcong()">Gửi</button> 
+                </div>
+            </div>
+        </div>  
+    </div>
+    
+</body>
+<script>  
+    function thanhcong(){  
+      alert("Lấy ý kiến thành công");  
+    }  
+  </script>
+</html>

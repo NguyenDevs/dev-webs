@@ -1,0 +1,26 @@
+body{
+    background-image: white;
+    height:100vh;
+    overflow: hidden;
+}
+.container{
+    top: 10%;
+    left: 90%;
+    transform: translate(-50%,50%);
+    position: relative;
+}
+.content{
+    border-style: solid;
+    padding: 10px;
+    padding-top: 1px;
+    padding-bottom: 25px;
+    margin-left: 4px;
+    position: absolute;
+    top: 11%;
+    line-height: 30px;
+
+}
+button{
+    position: absolute;
+    left: 10%;
+}
