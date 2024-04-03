@@ -1,0 +1,45 @@
+table{
+    position: relative; /*vị trí của phần tử sẽ tương đối so với vị trí tĩnh đã đặt 
+    và khoản không gian xung quanh phần tử sẽ được giữ nguyên*/
+    top:50%; /*Định vị vị trí bên trên*/
+    left:50%; /*Định vị vị trí bên trái*/
+    transform: translate(-50%,50%); /*thuộc tính chuyển đổi. Cho phép bạn thay đổi vị trí của phần tử*/
+    width: 500px;
+}
+.pictures{
+    position: relative;
+    left: 509px;
+    top: 419px;
+    width: 160px;
+    height: 165px;
+}
+.align{
+    text-align: left;
+    font-size: 14px;
+    height: 25px;
+    padding: 3px; 
+}
+.align_2{
+    text-align: left; /*Căn lề chữ sang trái*/
+    font-size: 14px; /*Chỉnh kích cỡ font chữ*/
+    height: 25px; /*Chỉnh chiều cao của phần tử*/
+    padding: 3px; /*Tạo không gian xung quanh nội dung của phần tử*/
+    color:black;
+}
+a{
+    text-decoration: none; /*Định dạng văn bản bình thường*/
+    color: black; /*Thay đổi màu của phần từ*/
+}
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  /*Hiển thị con trỏ chuột khi di chuyển con trỏ vào thành phần*/
+}
+.infomation{
+    text-align: left;
+    padding: 5px;
+}
+.table_name{
+    height: 45px;
+    font-size: 34px;
+}

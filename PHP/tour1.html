@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+<form action="dattour.php" method="post" >
+  <table width="694" height="525">
+   <tr>
+    <td colspan="3"><h2 align="center">ĐĂNG KÝ TOUR DU LỊCH </h2> </td>
+ </tr>
+ <tr>
+   <td width="186" height="38">   Tên Tour     </td>
+   <td width="218">
+     <select name="tentour">
+     <option value="Hà Nội - Hạ Long - Sapa">Hà Nội - Hạ Long – Sapa   
+     </option>
+     <option value="Hà Nội - Sơn La - Điện Biên">Hà Nội - Sơn La - Điện Biên
+     </option>
+     <option value="Hà Nội - Lai Châu - Lào Cai">Hà Nội - Lai Châu - Lào Cai            
+    </option>
+    <option value="Hà Nội - Vinh">Hà Nội - Vinh</option>
+    <option value="Hà Nội - Vinh - Huế">Hà Nội - Vinh - Huế</option>
+    <option value="Huế - Đà Nẵng">Huế - Đà Nẵng</option>
+  </select>                </td>
+ <td width="219" rowspan="5"><div align="justify"><a href="img1.png"> <img src="img1.png" alt="Tour du lịch" width="640" height="120" border="0"> </a> </div> </td>
+ </tr>
+ <tr>
+ <td height="33">Ngày khởi hành</td>
+ <td><input type="date" name="ngay" /> </td>
+  </tr>
+  <tr>
+   <td height="48">Phương tiện di chuyển</td>
+   <td>
+   <select name="phuongtien">
+   <option value="Xe hơi">Xe 8 chỗ</option>
+   <option value="Xe hơi">Xe 12 chỗ</option>
+   <option value="Xe khách">Xe khách</option>
+   <option value="Tàu hỏa">Tàu hỏa</option>
+   </select>          
+   </td>
+   </tr>
+  <tr>
+  <td height="24">Số lượng đăng ký <br /> <span class="style2"></span></td>
+  <td><input type="text" name="soluong" placeholder="Số lượng đăng ký"/>        
+  </td>
+  </tr>
+  <tr>
+   <td>Tên khách hàng</td>
+   <td><input type="text" name="ten" placeholder="Tên của bạn"></td>
+  </tr>
+  <tr>
+   <td>Liên hệ theo địa chỉ</td>
+   <td><input type="text" name="diachi" placeholder="Địa chỉ của bạn"></td>
+ </tr>
+ <tr>
+  <td> Số điện thoại</td>
+   <td><input type="tel" name="dienthoai" placeholder="Số điện thoại của bạn"> </td>
+  </tr>
+  <tr>
+   <td colspan="3"><center>Những yêu cầu kèm theo:</center></td>
+  </tr>
+<tr>
+   <td colspan="3"><center>
+   <textarea name="yeucau" cols="90"></textarea>
+                </center> </td>
+  </tr>
+ <tr>
+   <td colspan="3"><center><button type="submit" name="dk">Đăng ký tour</button></center></td>
+ </tr>
+  </table>
+</form>
+
+</body>
+</html>

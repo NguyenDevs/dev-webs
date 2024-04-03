@@ -1,0 +1,36 @@
+
+ul {
+    list-style-type: none;
+    margin-left: 300px;
+    margin-right: 583px;
+    padding: 5px;
+    overflow: hidden;
+    transform: translate(20%,50%);
+    
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  li {
+    float: left;
+    margin-right: 3px;
+    background-color: #8a8484;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+  }
+  li:last-child {
+    margin-right: 0;
+  }
+  li a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+  li a:hover {
+    background-color: #cc7a00;
+    border-radius: 5px;
+  }

@@ -1,0 +1,40 @@
+body {
+    width: 100%;
+    background-color: rgb(232, 240, 119);
+    min-height: 100vh;
+}
+.container{
+    background-color: rgb(233, 166, 73);
+    margin-left: -10px;
+    margin-top: -10px;
+}
+h1{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+.list{
+    font-size: 20px;
+    font-family:  calibri;
+    color: blue;
+}
+h4{
+    color: red;
+    font-size: 20px;
+}
+h5{
+    color: blue;
+    font-size: 16px;
+    line-height: 2px;
+}
+.red{
+    color: red;
+}
+.text {
+    display: flex;
+}
+.nd-ts{
+    position: relative;
+    left: 10px;
+    width: 80%;
+}

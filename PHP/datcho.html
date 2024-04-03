@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Đặt chỗ nhà hàng</title>
+</head>
+
+<body>
+    <center>
+        <form action="datcho.php" method="post" name="form1">
+            <table width="20%" height="453" border="0">
+                <tr>
+                    <td height="449" colspan="2">
+                        <h2>THÔNG TIN ĐẶT CHỖ</h2>
+                        Số khách tham dự bữa tiệc của quý khách:
+                        <input type="text" name="txtsokhach" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ngày
+                        <input type="date" name="txtngay" /> <br /> Loại tiệc:
+                        <input class="input" name="chkloai[]" type="checkbox" value="Sáng" checked="checked" /> Tiệc sáng
+                        <input type="checkbox" name="chkloai[]" value="Trưa" /> Tiệc trưa
+                        <input type="checkbox" name="chkloai[]" value="Tối" /> Tiệc tối
+                        <br /> <br /> Địa điểm:
+                        <input name="rdbdiadiem" type="radio" value="Trong nhà" checked="checked" /> Trong nhà
+                        <input name="rdbdiadiem" type="radio" value="Ngoài trời" /> Ngoài trời
+                        <br /> Tên quý khách: <input type="text" name="txtten" /> Địa chỉ liên lạc: <input type="text" name="txtdiachi" /> <br /> Độ tuổi: <select name="cbotuoi">
+        <option>Dưới 18 tuổi</option>
+        <option>Từ 19 đến 34 tuổi</option>
+        <option>Từ 35 đến 50 tuổi</option>
+        <option>Trên 50 tuổi</option>
+                </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Giới tính: <input name="rdbgt" type="radio" value="Nam" checked="checked" /> Nam
+                        <input type="radio" name="rdbgt" value="Nữ" /> Nữ <br /> <br /> Quý khách biết đến nhà hàng chúng tối qua: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        <select name="select" size="1">
+        <option>Báo chí</option>
+        <option>Đài phát thanh</option>
+        <option>Tivi</option>
+      </select>
+                        <br /> Các yêu cầu của quý khách:
+                        <textarea name="txtyeucau" cols="100"></textarea>
+                        <center> <button type="submit" name="Submit">Đặt chỗ</button></center>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+
+</html>

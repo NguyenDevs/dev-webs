@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+            <form action="" name="f1"  enctype="multipart/form-data" method="post" onSubmit="return check()">
+        <table id="bang" width="680" border="0">
+          <tr>
+            <td height="62" colspan="2" id="dangky"><h1> ĐĂNG KÝ THÀNH VIÊN</h1></td>
+          </tr>
+          <tr>
+            <td width="268"><div align="left">Tên đăng nhập </div></td>
+            <td width="524"><input class="input" type="text" name="dangnhap" width:"90%" value"" /></td>
+            </tr>
+            <td> <div align="left">Mật khẩu</div></td>
+            <td> <input class="input" type="password" name="matkhau" width:"90%" value="" /></td>
+            <tr>
+            <td><div align="left">Nhập lại mật khẩu</div></td>
+            <td><input class="input" type="password" name="nhaplai" width:"90%" value="" /></td>
+            </tr>
+            <tr>
+            <td> <div align="left">Tên thường gọi</div></td>
+            <td><input class="input" type="text" name="ten"  value"" /></td>
+            </tr>
+            <tr>
+            <td><div align="left">Email</div></td>
+            <td> <input class="input" type="email" name="email" value ""/></td>
+            </tr>
+            <tr>
+            <td><div align="left">Ngày sinh</div></td>
+            <td><input class="input" type="text" name="ngaysinh" width:"90%" value"" />	 </td>
+            </tr>
+            <tr>
+            <td><div align="left">Giới tính</div></td>
+            <td><input name="gt" type="radio" value="Nam" checked="checked"/> Nam <input type="radio" name="gt" value="nu"/> Nữ </td>
+            </tr>
+            <tr>
+            <td><div align="left">Hình ảnh</div></td>
+            <td><input type="file" name="image" value="Chọn file ảnh" /></td>
+            </tr>
+          </tr>
+          <tr>
+          <td> </td>
+          </tr>
+          <tr>
+          <td></td>
+          <td> <button type="submit" name="submit" onclick="return check()">Đăng ký</button> &nbsp; &nbsp; &nbsp;
+          <button type="reset" name="reset">Nhập lại</button></td>
+          </tr>
+        </table>
+        </form>
+    </center>
+</body>
+<script src="script.js"></script>
+</html>

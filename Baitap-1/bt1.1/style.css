@@ -1,0 +1,33 @@
+body {
+    background-color: yellow; /*Thay đổi màu nền background*/
+    display: block;
+    margin-left: auto; /*Tự động căn phần tử sang trái*/
+    margin-right: auto; /*Tự động căn phần tử sang phải*/
+    width: 50%; /*Chỉnh độ rộng phần tử 50%*/
+}
+h1{
+    color: red;
+    position: relative; 
+}
+h2{
+    color: red;
+    font-size: 18px; /*THay đổi kích cỡ font chữ*/
+    line-height: 1px; /*Thay đổi kích cỡ dãn dòng*/
+    position: relative;/*vị trí của phần tử sẽ tương đối so với vị trí tĩnh đã đặt 
+    và khoản không gian xung quanh phần tử sẽ được giữ nguyên*/
+    left: 30px; /*Định vị vị trí phần tử sang trái 30px*/
+
+    
+}
+ol li{
+    color: blue;
+    position: relative;
+    left: 45px;
+}
+.link{
+    color: blueviolet;
+    text-align: center; /*Căn lề giữa cho phần tử*/
+}
+.info{
+ text-align: center;
+}

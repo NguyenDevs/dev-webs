@@ -1,0 +1,22 @@
+body {
+    background-color: #FFD2FF;
+  }
+  h1 {
+    text-align: center;
+    color: #4CAF50;
+    font-family: monospace;
+    font-size: 36px;
+  }
+  p {
+    text-align: center;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    margin: 50px;
+    font-family: monospace;
+    font-size: 19px;
+  }
+  .colors{
+ color: aqua;
+ font-family: monospace;
+ 
+  }

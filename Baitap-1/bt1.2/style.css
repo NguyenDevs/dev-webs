@@ -1,0 +1,39 @@
+body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+
+    background-image: url("24052.jpg");
+}
+h1{
+    color: blue;
+    position: relative;
+    text-align: center;
+}
+h2{
+    color: darkgoldenrod;
+    position: relative;
+    font-size: 18px;
+    line-height: 1px;
+    left: 300px;
+   
+}
+ol li{
+    color: red;
+    position: relative;
+    left: 300px;
+    text-align: left;
+    list-style: none;
+    
+}
+.link{
+   color: blueviolet;
+   position: relative;
+   left: 30px;
+   text-align: center;
+}
+.info{
+    position: relative;
+    text-align: center;
+}

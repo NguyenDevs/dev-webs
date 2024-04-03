@@ -1,0 +1,25 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border-style: double;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+    border: 1px #dddddd;
+    border-style: solid ;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.button-{
+    text-align: center;
+}
+.header{
+    text-align: center;
+}

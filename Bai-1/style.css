@@ -1,0 +1,133 @@
+body{
+    transform: translate(0%,50%);
+    top: -100px;
+    position: relative;
+  }
+  #header {
+    width: 800px;
+    height:100px;
+    background-color:#0FF;
+  }
+  #nav {
+    width: 1600px;
+    height: 50px;
+    background-color:#0663c1;
+    margin-top: 50px;
+    color:#FFF;
+
+  }
+  #cside {
+    margin-top: 50px;
+    width: 293px;
+    height:220px;
+    border: #999 1px solid;
+    float:left;
+    margin-left: -628px;
+    margin-top: 30px;
+  }
+  #aside {
+    margin-top: 50px;
+    width: 293px;
+    height: 220px;
+    float:left;
+    border:#999 1px solid;
+    margin-left: -120px;
+    margin-top: 30px;
+  }
+  #bside {
+    margin-top: 50px;
+    width: 293px;
+    height: 220px;
+    float:left;
+    border:#999 1px solid;
+    margin-left: -1137px;
+    margin-top: 30px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 5px;
+    transform: translate(20%,50%);
+    margin-left: -385px;
+    padding-left: 10px;
+    margin-top: -55px;
+  }
+  li {
+    float: left;
+    background-color:#0663c1;
+    border-radius: 1px;
+    width: 189px;
+    height: 40px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 12px;
+
+  }
+  .homes{
+    background-color: #00488f;
+  }
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #00488f;
+    border-radius: 4px;
+  }
+      .dropdown-content {
+        position: absolute;
+        display: none;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-left: 555px;
+        margin-top: 40px;
+        background-color:#0663c1;
+        width: 255px;
+      }
+      .dropdown-content2 {
+        position: absolute;
+        display: none;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-left: 195px;
+        margin-top: 40px;
+        background-color:#0663c1;
+        width: 255px;
+      }
+      
+      .dropdown-content a {
+        color: rgb(255, 255, 255);
+        padding: 10px 5px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    
+        margin-left: 10px;
+        width: 230px;
+
+      }
+    
+      /* Hiển thị menu thả xuống khi di chuột qua */
+      .dropdown:hover .dropdown-content {
+          display: block;
+      }
+      .dropdown-content2 a {
+        color: rgb(255, 255, 255);
+        padding: 10px 5px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        margin-left: 10px;
+        width: 230px;
+
+      }
+    
+      /* Hiển thị menu thả xuống khi di chuột qua */
+      .dropdown:hover .dropdown-content2 {
+          display: block;
+      }

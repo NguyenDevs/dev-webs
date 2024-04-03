@@ -1,0 +1,29 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFD2FF;
+    border-radius: 5px;
+  }
+  li {
+    float: left;
+    width: 16.66%;
+    text-align: center;
+
+    
+  }
+  li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+    
+  }
+  li a:hover {
+    text-decoration: underline;
+    background-color: brown;
+    border-radius: 5px;
+  }
